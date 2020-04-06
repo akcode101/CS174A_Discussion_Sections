@@ -56,11 +56,12 @@ window.Minimal_Shape = window.classes.Minimal_Shape =
             super("positions", "colors");
             // Name the values we'll define per each vertex.
             this.positions = [
-                Vec.of(0, 0, 0), Vec.of(1, 0, 0), Vec.of(0, 1, 0),
+                Vec.of(0, 0, 0), Vec.of(1, 0, 0), Vec.of(0, 1, 0), Vec.of(0,1,0), Vec.of(1,0,0), Vec.of(1,1,0)
             ];
             // Describe the where the points of a triangle are in space.
             this.colors = [
-                Color.of(1, 0, 0, 1), Color.of(0, 1, 0, 1), Color.of(0, 0, 1, 1),
+                Color.of(1, 0, 0, 1), Color.of(0, 1, 0, 1), Color.of(0, 0, 1, 1), Color.of(0,0,1,1), Color.of(0,1,0,1), Color.of(1,1,0,1)
+
             ];
             // Besides a position, vertices also have a color.
             this.indexed = false;
